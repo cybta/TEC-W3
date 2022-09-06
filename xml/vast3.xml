@@ -1,0 +1,59 @@
+<VAST xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="vast.xsd" version="2.0">
+	<Ad id="3">
+		<InLine>
+			<AdSystem>
+				<![CDATA[BrightLine]]>
+			</AdSystem>
+			<AdTitle>
+				<![CDATA[BL | BrightLine]]>
+			</AdTitle>
+			<Description>
+				<![CDATA[BL | BrightLine]]>
+			</Description>
+			<Impression>
+				<![CDATA[https://events.brightline.tv/track?data=%7B%22type%22%3A%22vast_impression%22%2C%22valid%22%3Atrue%2C%22ad_id%22%3A0%2C%22session_id%22%3A%22O2952673415-A5859340927-C138375262578-1362702818%22%7D]]>
+			</Impression>
+			<Creatives>
+				<Creative id="VIDEO_138375262578" sequence="1">
+					<Linear>
+						<Duration>00:00:30</Duration>
+						<TrackingEvents>
+							<Tracking event="start">
+								<![CDATA[https://events.brightline.tv/track?data=%7B%22type%22%3A%22impression%22%2C%22valid%22%3Atrue%2C%22ad_id%22%3A0%2C%22session_id%22%3A%22O2952673415-A5859340927-C138375262578-1362702818%22%7D]]>
+							</Tracking>
+							<Tracking event="start">
+								<![CDATA[https://events.brightline.tv/track?data=%7B%22type%22%3A%22duration%22%2C%22duration_type%22%3A%22impression%22%2C%22percent_complete%22%3A0%2C%22ad_id%22%3A0%2C%22session_id%22%3A%22O2952673415-A5859340927-C138375262578-1362702818%22%7D]]>
+							</Tracking>
+							<Tracking event="firstQuartile">
+								<![CDATA[https://events.brightline.tv/track?data=%7B%22type%22%3A%22duration%22%2C%22duration_type%22%3A%22impression%22%2C%22percent_complete%22%3A25%2C%22ad_id%22%3A0%2C%22session_id%22%3A%22O2952673415-A5859340927-C138375262578-1362702818%22%7D]]>
+							</Tracking>
+							<Tracking event="midpoint">
+								<![CDATA[https://events.brightline.tv/track?data=%7B%22type%22%3A%22duration%22%2C%22duration_type%22%3A%22impression%22%2C%22percent_complete%22%3A50%2C%22ad_id%22%3A0%2C%22session_id%22%3A%22O2952673415-A5859340927-C138375262578-1362702818%22%7D]]>
+							</Tracking>
+							<Tracking event="thirdQuartile">
+								<![CDATA[https://events.brightline.tv/track?data=%7B%22type%22%3A%22duration%22%2C%22duration_type%22%3A%22impression%22%2C%22percent_complete%22%3A75%2C%22ad_id%22%3A0%2C%22session_id%22%3A%22O2952673415-A5859340927-C138375262578-1362702818%22%7D]]>
+							</Tracking>
+							<Tracking event="complete">
+								<![CDATA[https://events.brightline.tv/track?data=%7B%22type%22%3A%22duration%22%2C%22duration_type%22%3A%22impression%22%2C%22percent_complete%22%3A100%2C%22ad_id%22%3A0%2C%22session_id%22%3A%22O2952673415-A5859340927-C138375262578-1362702818%22%7D]]>
+							</Tracking>
+						</TrackingEvents>
+						<MediaFiles>
+							<MediaFile id="VIDEO_MP4_138375262578" delivery="progressive" width="1280" height="720" type="video/mp4" bitrate="20000" scalable="true" maintainAspectRatio="true" apiFramework="brightline">
+								<![CDATA[https://cdn-media.brightline.tv/campaigns/brightline/certification/vizio/all/media/videos/countdown_30.mp4]]>
+							</MediaFile>
+						</MediaFiles>
+					</Linear>
+				</Creative>
+				<Creative id="COMPANION_0" sequence="1">
+					<CompanionAds>
+						<Companion id="COMPANION_OVERLAY_0" width="1280" height="720" apiFramework="brightline">
+							<IFrameResource>
+								<![CDATA[https://cdn-media.brightline.tv/demo/training/course-sept-5-2022/companions/c3.html]]>
+							</IFrameResource>
+						</Companion>
+					</CompanionAds>
+				</Creative>
+			</Creatives>
+		</InLine>
+	</Ad>
+</VAST>
